@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: demo
+    database: MOVIELENS  
+    schema: RAW  
+    tables:
+      - name: r_movies
+        identifier: raw_movies
+      - name: r_ratings
+        identifier: RAW_RATINGS
