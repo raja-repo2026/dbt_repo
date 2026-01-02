@@ -9,3 +9,11 @@ sources:
         identifier: raw_movies
       - name: r_ratings
         identifier: RAW_RATINGS
+      - name: r_tags
+        identifier: raw_tags
+      - name: r_genome_tags
+        identifier: raw_genomoe_tags
+      - name: r_genome_scores
+        identifier: raw_genome_scores
+      - name: r_links
+        identifier: raw_links
