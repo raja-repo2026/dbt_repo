@@ -1,3 +1,6 @@
+{{
+    config(materialized='table')
+}}
 with raw_ratings as (
     select * from {{source('demo','r_ratings')}}
 )
