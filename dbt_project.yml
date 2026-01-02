@@ -41,4 +41,8 @@ models:
     example:
       +materialized: table
     staging:
+      +materialized: view
+    dim:
+      +materialized: table
+    fct:
       +materialized: table

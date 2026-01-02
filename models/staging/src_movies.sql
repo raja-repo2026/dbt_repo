@@ -4,5 +4,5 @@ with raw_movies as (
 select 
 movieId as movie_id,
 title,
-genres
+{{flatten_gen('genres')}} as genres
 from raw_movies
